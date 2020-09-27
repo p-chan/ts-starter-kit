@@ -1,20 +1,20 @@
 {
-  "name": "ts-starter-kit",
+  "name": "ts-template",
   "version": "1.0.0",
-  "description": "A starter kit with TypeScript",
+  "description": "A TypeScript template",
   "keywords": [
     "typescript"
   ],
-  "homepage": "https://github.com/p-chan/ts-starter-kit",
+  "homepage": "https://github.com/p-chan/ts-template",
   "bugs": {
-    "url": "https://github.com/p-chan/ts-starter-kit/issues"
+    "url": "https://github.com/p-chan/ts-template/issues"
   },
   "license": "MIT",
   "author": "P-Chan",
   "main": "./dist",
   "repository": {
     "type": "git",
-    "url": "https://github.com/p-chan/ts-starter-kit.git"
+    "url": "https://github.com/p-chan/ts-template.git"
   },
   "scripts": {
     "build": "tsc",

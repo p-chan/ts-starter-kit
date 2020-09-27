@@ -1,3 +1,3 @@
-# ts-starter-kit
+# ts-template
 
-> A starter kit with TypeScript
+> A TypeScript template
