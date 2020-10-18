@@ -19,11 +19,9 @@
   "scripts": {
     "build": "tsc",
     "clean": "rimraf ./dist",
-    "dev": "ts-node ./src",
+    "dev": "nodemon --watch \"./src/**/*\" --exec \"ts-node\" ./src/index.ts",
     "format": "prettier --write .",
-    "prepare": "npm run build",
-    "start": "node .",
-    "watch": "nodemon --watch \"./src/**/*\" --exec \"ts-node\" ./src/index.ts"
+    "start": "node ."
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
